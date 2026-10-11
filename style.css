@@ -113,7 +113,15 @@ h1, h2, h3, h4 { font-family: 'Space Grotesk', sans-serif; margin: 0; }
 .team-card h3 { font-size: 1.15rem; font-weight: 600; }
 .degree { font-size: .85rem; color: var(--muted); font-weight: 500; }
 .role { display: block; color: var(--primary); margin: 4px 0 12px; }
-.team-card p { color: var(--muted); font-size: .9rem; text-align: justify; margin: 0; }
+.team-card p {
+  color: var(--muted);
+  font-size: .9rem;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin: 0;
+}
 
 /* FOOTER */
 .site-footer {
